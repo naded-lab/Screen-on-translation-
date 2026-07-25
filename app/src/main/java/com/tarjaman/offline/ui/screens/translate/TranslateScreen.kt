@@ -161,6 +161,7 @@ fun TranslateScreen(viewModel: TranslateViewModel) {
 
 @Composable
 private fun LanguageSwitchBar(sourceLang: String, targetLang: String, onSwap: () -> Unit) {
+    @Composable
     fun label(code: String) = if (code == "ar")
         androidx.compose.ui.res.stringResource(R.string.lang_arabic)
     else
