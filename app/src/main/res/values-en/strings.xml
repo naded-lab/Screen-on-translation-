@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarjaman</string>
+
+    <string name="translate_title">Tarjaman</string>
+    <string name="hint_enter_text">Type text here…</string>
+    <string name="btn_swap_languages">Swap languages</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_clear">Clear</string>
+    <string name="copied_toast">Copied</string>
+    <string name="translation_placeholder">Translation will appear here</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_english">English</string>
+
+    <string name="model_status_installing">Downloading language model… (one time only)</string>
+    <string name="model_status_ready">Translation model ready — works fully offline</string>
+    <string name="model_status_needed">Language model needs to be downloaded first</string>
+    <string name="btn_download_model">Download model</string>
+    <string name="model_download_error">Couldn\'t download the model. Check your connection and try again</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_language">App language</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_font">Font</string>
+    <string name="settings_section_models">Translation models</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_follow_system">Follow system setting</string>
+    <string name="settings_font_size">Font size</string>
+    <string name="settings_wifi_only">Download models over Wi-Fi only</string>
+    <string name="settings_delete_model">Delete model</string>
+    <string name="font_system_default">Modern Default</string>
+    <string name="font_sans_serif">Sans Serif</string>
+    <string name="font_serif">Serif (Traditional)</string>
+    <string name="font_condensed">Condensed</string>
+
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <string name="history_title">History</string>
+    <string name="history_empty">No saved translations yet</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_delete_all">Delete all</string>
+
+    <string name="nav_translate">Translate</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <!-- Floating overlay translator -->
+    <string name="overlay_title">Floating Translator</string>
+    <string name="overlay_description">Translates on-screen text directly on top of any app (like manhwa reader apps), without fetching or saving any images — everything runs locally on your device.</string>
+    <string name="overlay_permission_needed">"Display over other apps" permission is required for this feature</string>
+    <string name="overlay_grant_permission">Grant permission</string>
+    <string name="overlay_start">Start floating translator</string>
+    <string name="overlay_stop">Stop floating translator</string>
+    <string name="overlay_how_to_use">Tap the floating button over any text bubble to translate it instantly, and drag it anywhere you like.</string>
+    <string name="overlay_notification_channel">Floating translator active</string>
+    <string name="overlay_notification_title">Tarjaman is running in the background</string>
+    <string name="overlay_notification_text">Tap the floating button to translate any text on screen</string>
+    <string name="nav_overlay">Overlay</string>
+
+    <string name="back">Back</string>
+</resources>

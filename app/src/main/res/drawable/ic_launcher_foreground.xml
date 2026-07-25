@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- فقاعتا حوار متقابلتان بتصميم هندسي بسيط أصلي -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,34 h34 a8,8 0 0 1 8,8 v14 a8,8 0 0 1 -8,8 h-6 l-8,9 v-9 h-20 a8,8 0 0 1 -8,-8 v-14 a8,8 0 0 1 8,-8 Z" />
+
+    <path
+        android:fillColor="#B0F1EA"
+        android:pathData="M46,52 h34 a8,8 0 0 1 8,8 v14 a8,8 0 0 1 -8,8 h-20 v9 l-8,-9 h-6 a8,8 0 0 1 -8,-8 v-14 a8,8 0 0 1 8,-8 Z" />
+
+    <!-- سهم تبادل صغير في المنتصف يرمز للترجمة بين لغتين -->
+    <path
+        android:fillColor="#0F6E6A"
+        android:pathData="M40,46 l7,-6 v3.5 h14 v5 h-14 v3.5 Z" />
+    <path
+        android:fillColor="#0F6E6A"
+        android:pathData="M68,62 l-7,6 v-3.5 h-14 v-5 h14 v-3.5 Z" />
+</vector>

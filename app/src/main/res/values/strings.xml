@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ترجمان</string>
+
+    <!-- شاشة الترجمة -->
+    <string name="translate_title">ترجمان</string>
+    <string name="hint_enter_text">اكتب النص هنا…</string>
+    <string name="btn_swap_languages">تبديل اللغتين</string>
+    <string name="btn_copy">نسخ</string>
+    <string name="btn_share">مشاركة</string>
+    <string name="btn_clear">مسح</string>
+    <string name="copied_toast">تم النسخ</string>
+    <string name="translation_placeholder">ستظهر الترجمة هنا</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_english">الإنجليزية</string>
+
+    <!-- حالة النموذج -->
+    <string name="model_status_installing">جارٍ تنزيل نموذج اللغة… (مرة واحدة فقط)</string>
+    <string name="model_status_ready">نموذج الترجمة جاهز للعمل بدون إنترنت</string>
+    <string name="model_status_needed">يلزم تنزيل نموذج اللغة أولاً</string>
+    <string name="btn_download_model">تنزيل النموذج</string>
+    <string name="model_download_error">تعذّر تنزيل النموذج، تحقق من الاتصال وحاول مجدداً</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_section_language">لغة التطبيق</string>
+    <string name="settings_section_appearance">المظهر</string>
+    <string name="settings_section_font">الخط</string>
+    <string name="settings_section_models">نماذج الترجمة</string>
+    <string name="settings_dark_mode">الوضع الليلي</string>
+    <string name="settings_follow_system">اتباع إعداد الجهاز</string>
+    <string name="settings_font_size">حجم الخط</string>
+    <string name="settings_wifi_only">تنزيل النماذج عبر Wi-Fi فقط</string>
+    <string name="settings_delete_model">حذف النموذج</string>
+    <string name="font_system_default">افتراضي حديث</string>
+    <string name="font_sans_serif">بلا زوائد (Sans Serif)</string>
+    <string name="font_serif">تقليدي (Serif)</string>
+    <string name="font_condensed">مكثّف (Condensed)</string>
+
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_version">الإصدار %1$s</string>
+
+    <!-- السجل -->
+    <string name="history_title">السجل</string>
+    <string name="history_empty">لا توجد ترجمات محفوظة بعد</string>
+    <string name="btn_delete">حذف</string>
+    <string name="btn_delete_all">حذف الكل</string>
+
+    <!-- عام -->
+    <string name="nav_translate">ترجمة</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+    <!-- المترجم العائم -->
+    <string name="overlay_title">المترجم العائم</string>
+    <string name="overlay_description">يترجم النص الظاهر على شاشتك مباشرة فوق أي تطبيق (مثل تطبيقات قراءة المانهوا)، دون جلب أو حفظ أي صور — كل شيء يعمل محلياً على جهازك.</string>
+    <string name="overlay_permission_needed">يلزم إذن "العرض فوق التطبيقات الأخرى" لتفعيل هذه الميزة</string>
+    <string name="overlay_grant_permission">منح الإذن</string>
+    <string name="overlay_start">تشغيل المترجم العائم</string>
+    <string name="overlay_stop">إيقاف المترجم العائم</string>
+    <string name="overlay_how_to_use">اضغط على الزر العائم فوق أي فقاعة نص لترجمتها فوراً، واسحبه لأي مكان تريده.</string>
+    <string name="overlay_notification_channel">المترجم العائم نشط</string>
+    <string name="overlay_notification_title">ترجمان يعمل في الخلفية</string>
+    <string name="overlay_notification_text">اضغط على الزر العائم لترجمة أي نص على الشاشة</string>
+    <string name="nav_overlay">العائم</string>
+
+    <string name="back">رجوع</string>
+</resources>

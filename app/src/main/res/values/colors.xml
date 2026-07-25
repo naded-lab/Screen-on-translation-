@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        نُبقي هنا فقط الألوان المرجعية فعلياً من XML (شاشة Splash قبل تحميل Compose).
+        باقي ألوان التطبيق مصدرها الوحيد Kotlin (ui/theme/Color.kt) لتفادي ازدواجية
+        المصدر ولتقليل الموارد غير المستخدمة في الـ APK النهائي.
+    -->
+    <color name="md_primary_container">#B0F1EA</color>
+</resources>
