@@ -1,0 +1,47 @@
+name: Build Tarjaman APK
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout المشروع
+        uses: actions/checkout@v4
+
+      - name: تثبيت JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: تثبيت مكوّنات Android SDK المطلوبة (compileSdk 34)
+        uses: android-actions/setup-android@v3
+
+      - name: تجهيز Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.7'
+
+      - name: بناء APK (Debug) - جاهز للتثبيت المباشر على أي جوال
+        run: gradle assembleDebug --no-daemon --stacktrace
+
+      - name: رفع ملف APK كنتيجة قابلة للتنزيل
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tarjaman-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+
+      - name: بناء AAB (Release) - لرفعه على متجر Play لاحقاً (اختياري)
+        run: gradle bundleRelease --no-daemon --stacktrace
+        continue-on-error: true
+
+      - name: رفع ملف AAB إن نجح البناء
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Tarjaman-release-aab
+          path: app/build/outputs/bundle/release/*.aab
+          if-no-files-found: ignore
