@@ -23,7 +23,7 @@ enum class AppFont(val key: String, val displayNameRes: Int, val fontFamily: Fon
     SYSTEM_DEFAULT("system_default", R.string.font_system_default, FontFamily.Default),
     SANS_SERIF("sans_serif", R.string.font_sans_serif, FontFamily.SansSerif),
     SERIF("serif", R.string.font_serif, FontFamily.Serif),
-    CONDENSED("condensed", R.string.font_condensed, FontFamily(genericFontFamily = "sans-serif-condensed"));
+    CONDENSED("condensed", R.string.font_condensed, FontFamily.SansSerif);
 
     companion object {
         fun fromKey(key: String): AppFont = entries.find { it.key == key } ?: SYSTEM_DEFAULT
